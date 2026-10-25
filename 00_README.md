@@ -5,3 +5,5 @@ Start MATLAB (pref. vers. R2024b) and run init_para_with_symmtrc_loads.m.
 Execute a01_scan_VSC_13_feeder.m and run simulations on PV_Geno_VSC_GFL_634.slx. Save simulation data on finishing.
 Run frame_dyn_emb_admittance_model.m. It will generate the analytic admittance model with frame dynamics embedded.
 At last ypm_plot_compare_ana_meas.m will plot the amplitude and the phase of the two models.
+
+For generating the nodal admittance matrix of the IEEE 13 Node test feeder run build_Yb_13feeder.m.
